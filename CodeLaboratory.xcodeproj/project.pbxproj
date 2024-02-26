@@ -13,7 +13,7 @@
 		3BC936EC2B8C3FD70091C36E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC936EA2B8C3FD70091C36E /* Main.storyboard */; };
 		3BC936EE2B8C3FD90091C36E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC936ED2B8C3FD90091C36E /* Assets.xcassets */; };
 		3BC936F12B8C3FD90091C36E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC936EF2B8C3FD90091C36E /* LaunchScreen.storyboard */; };
-		3BC936FC2B8C3FD90091C36E /* CodeLaboratoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC936FB2B8C3FD90091C36E /* CodeLaboratoryTests.swift */; };
+		3BC936FC2B8C3FD90091C36E /* RxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC936FB2B8C3FD90091C36E /* RxSwiftTests.swift */; };
 		3BC937062B8C3FD90091C36E /* CodeLaboratoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC937052B8C3FD90091C36E /* CodeLaboratoryUITests.swift */; };
 		3BC937082B8C3FD90091C36E /* CodeLaboratoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC937072B8C3FD90091C36E /* CodeLaboratoryUITestsLaunchTests.swift */; };
 		3BC937172B8C40290091C36E /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC937162B8C40290091C36E /* RxCocoa */; };
@@ -48,7 +48,7 @@
 		3BC936F02B8C3FD90091C36E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BC936F22B8C3FD90091C36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BC936F72B8C3FD90091C36E /* CodeLaboratoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeLaboratoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BC936FB2B8C3FD90091C36E /* CodeLaboratoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeLaboratoryTests.swift; sourceTree = "<group>"; };
+		3BC936FB2B8C3FD90091C36E /* RxSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftTests.swift; sourceTree = "<group>"; };
 		3BC937012B8C3FD90091C36E /* CodeLaboratoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeLaboratoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC937052B8C3FD90091C36E /* CodeLaboratoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeLaboratoryUITests.swift; sourceTree = "<group>"; };
 		3BC937072B8C3FD90091C36E /* CodeLaboratoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeLaboratoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		3BC936FA2B8C3FD90091C36E /* CodeLaboratoryTests */ = {
 			isa = PBXGroup;
 			children = (
-				3BC936FB2B8C3FD90091C36E /* CodeLaboratoryTests.swift */,
+				3BC936FB2B8C3FD90091C36E /* RxSwiftTests.swift */,
 			);
 			path = CodeLaboratoryTests;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BC936FC2B8C3FD90091C36E /* CodeLaboratoryTests.swift in Sources */,
+				3BC936FC2B8C3FD90091C36E /* RxSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
